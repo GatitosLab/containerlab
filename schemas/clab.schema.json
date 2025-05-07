@@ -1014,6 +1014,12 @@
                         },
                         "fdio_vpp": {
                             "$ref": "#/definitions/node-config"
+                        },
+                        "cisco_router": {
+                            "$ref": "#/definitions/node-config"
+                        },
+                        "cisco_switch": {
+                            "$ref": "#/definitions/node-config"
                         }
                     },
                     "additionalProperties": false

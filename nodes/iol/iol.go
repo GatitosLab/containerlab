@@ -41,8 +41,8 @@ const (
 )
 
 var (
-	kindNames          = []string{"cisco_iol"}
-	defaultCredentials = nodes.NewCredentials("admin", "admin")
+	kindNames          = []string{"cisco_iol", "cisco_router", "cisco_switch"}
+	defaultCredentials = nodes.NewCredentials("admin", "")
 
 	//go:embed iol.cfg.tmpl
 	cfgTemplate string
