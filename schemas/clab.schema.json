@@ -91,7 +91,9 @@
                         "generic_vm",
                         "fortinet_fortigate",
                         "k8s-kind",
-                        "fdio_vpp"
+                        "fdio_vpp",
+                        "cisco_router",
+                        "cisco_switch"
                     ]
                 },
                 "license": {
