@@ -92,8 +92,12 @@
                         "fortinet_fortigate",
                         "k8s-kind",
                         "fdio_vpp",
-                        "cisco_basic_router",
-                        "cisco_basic_switch"
+                        "tpl_cisco_basic_router",
+                        "tpl_cisco_basic_switch",
+                        "tpl_linux",
+                        "tpl_alpine_linux",
+                        "tpl_paloalto_panos",
+                        "tpl_fortinet_fortigate"
                     ]
                 },
                 "license": {
