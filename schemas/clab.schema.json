@@ -1236,6 +1236,18 @@
                         },
                         "tpl_cisco_basic_switch": {
                             "$ref": "#/definitions/node-config"
+                        },
+                        "tpl_linux": {
+                            "$ref": "#/definitions/node-config"
+                        },
+                        "tpl_alpine_linux": {
+                            "$ref": "#/definitions/node-config"
+                        },
+                        "tpl_paloalto_panos": {
+                            "$ref": "#/definitions/node-config"
+                        },
+                        "tpl_fortinet_fortigate": {
+                            "$ref": "#/definitions/node-config"
                         }
                     },
                     "additionalProperties": false
